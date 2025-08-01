@@ -5,6 +5,7 @@ Este repositorio contiene el desarrollo de nuestro proyecto grupal, centrado en 
 ---
 
 Descarga de Datos Crudos
+
 Debido a limitaciones de tamaño, los datos originales no están almacenados directamente en este repositorio.
 En su lugar, podés descargar los datos crudos desde la carpeta compartida en Google Drive:
 
