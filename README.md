@@ -1,5 +1,8 @@
 # PF_NBA_EQUIPO1
 Proyecto Final DA Soy Henry
+
+⚠️ Este README está en desarrollo. Se actualizará cuando finalice la automatización del flujo de carga a Google Cloud.
+
 ## 📁 Datasets
 
 Los archivos utilizados en este proyecto están disponibles en la siguiente carpeta de Google Drive:
