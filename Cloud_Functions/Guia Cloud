@@ -1,9 +1,6 @@
 Cómo desplegar la Cloud Function
 Para desplegar esta función en Google Cloud, seguí estos pasos (desde la raíz del proyecto):
 
-bash
-Copiar
-Editar
 gcloud functions deploy ingest_clean \
   --runtime python310 \
   --trigger-resource pf-nba-csv \
