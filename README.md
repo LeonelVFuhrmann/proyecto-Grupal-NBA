@@ -115,14 +115,17 @@ A continuación se detallan los pasos recomendados para trabajar con este proyec
 
 ---
 
-## 🤖 Automatización del Pipeline (En Desarrollo)
+## 🤖 Automatización del Pipeline
 
-Estamos trabajando en la implementación de un pipeline automático para:
+Automatización de Ingesta y Limpieza con Cloud Functions
+Este proyecto utiliza una función en Google Cloud para automatizar la ingesta y limpieza de datos:
 
-- Extraer, transformar y cargar los datos con scripts programados.
-- Automatizar la carga de datos limpios a GCP (Storage o BigQuery).
-- Ejecutar procesos mediante `cron`, Airflow o Cloud Functions.
-- Garantizar trazabilidad y repetibilidad del proceso de ETL.
+Cuando se sube un archivo .csv a la carpeta prueba/ del bucket pf-nba-csv,
+la función ingest_clean.py se dispara automáticamente.
+
+El archivo se descarga, se limpia y se comparan los datos con BigQuery para insertar sólo los nuevos registros.
+
+Esto garantiza que la base de datos se mantenga actualizada sin duplicados ni datos sucios.
 
 ---
 
