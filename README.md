@@ -11,12 +11,12 @@ Debido a limitaciones de tamaño, los datos originales no están almacenados dir
 
 **Nota:** Es importante colocar los datos descargados dentro de la carpeta `Data/Data Cruda` para que los notebooks funcionen correctamente con las rutas relativas configuradas.
 
-[📂 Carpeta de Google Drive][![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)](https://drive.google.com/drive/folders/1cpyqh4gJj8WTLE0hibV6B5b3XWL0TMEG)
+[📂 Data Cruda][![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)](https://drive.google.com/drive/folders/1cpyqh4gJj8WTLE0hibV6B5b3XWL0TMEG)
 
 
 También podés descargar los archivos ya limpios y colocarlos en su carpeta correspondiente (Data Limpia), en caso de no querer hacer el proceso.
 
-[📂 Carpeta de Google Drive][![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)]((https://drive.google.com/drive/folders/19Ap8VtPO3Ph3U8Cnk0MvJFhxqOdBxvkl)      
+[📂 Data Limpia][![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)]((https://drive.google.com/drive/folders/19Ap8VtPO3Ph3U8Cnk0MvJFhxqOdBxvkl)      
 
 ## 📁 Estructura del Repositorio
 
