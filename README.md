@@ -4,15 +4,13 @@ Este repositorio contiene el desarrollo de nuestro proyecto grupal, centrado en 
 
 ---
 
-Descarga de Datos Crudos
+## 📥 Descarga de Datos Crudos
 
-Debido a limitaciones de tamaño, los datos originales no están almacenados directamente en este repositorio.
-En su lugar, podés descargar los datos crudos desde la carpeta compartida en Google Drive:
+Debido a limitaciones de tamaño, los datos originales no están almacenados directamente en este repositorio. En su lugar, podés descargar los datos crudos desde la carpeta compartida en Google Drive:
 
+**Nota:** Es importante colocar los datos descargados dentro de la carpeta `Data/Data Cruda` para que los notebooks funcionen correctamente con las rutas relativas configuradas.
 
-Nota: Es importante colocar los datos descargados dentro de la carpeta Data/Data Cruda para que los notebooks funcionen correctamente con las rutas relativas configuradas.
-
-[![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)](https://drive.google.com/drive/folders/1cpyqh4gJj8WTLE0hibV6B5b3XWL0TMEG)
+[📂 Carpeta de Google Drive][![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)](https://drive.google.com/drive/folders/1cpyqh4gJj8WTLE0hibV6B5b3XWL0TMEG)
 
 ## 📁 Estructura del Repositorio
 
