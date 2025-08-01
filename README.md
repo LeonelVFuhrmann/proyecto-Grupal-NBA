@@ -117,7 +117,6 @@ A continuación se detallan los pasos recomendados para trabajar con este proyec
 - **Visual Studio Code**  
 - **Git & GitHub** para control de versiones
 - **Trello** 
-- **Github** 
 
 ---
 
