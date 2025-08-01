@@ -127,6 +127,10 @@ El archivo se descarga, se limpia y se comparan los datos con BigQuery para inse
 
 Esto garantiza que la base de datos se mantenga actualizada sin duplicados ni datos sucios.
 
+### 🎥 Video de la Automatización
+
+[Ver video de demostración](https://drive.google.com/file/d/1qmPmSfjTDkAnyyMHrdup64EZsplPh62l/view?usp=sharing)  
+
 ---
 
 ## 📊 Visualizaciones en Power BI
