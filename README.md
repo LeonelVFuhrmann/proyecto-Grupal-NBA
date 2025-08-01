@@ -19,7 +19,7 @@ Debido a limitaciones de tamaño, los datos originales no están almacenados dir
 PF_NBA_EQUIPO1/
 ├── Data/
 │   ├── Data Cruda/       # Contiene un link a Drive para descargar los datos originales
-│   └── limpia/           # Datos limpios y transformados listos para análisis
+│   └── Data Limpia/           # Datos limpios y transformados listos para análisis
 │
 ├── Notebooks/            # Notebooks individuales de cada integrante (limpieza y transformación)
 │
