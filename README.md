@@ -16,7 +16,7 @@ Debido a limitaciones de tamaño, los datos originales no están almacenados dir
 
 También podés descargar los archivos ya limpios y colocarlos en su carpeta correspondiente (Data Limpia), en caso de no querer hacer el proceso.
 
-[📂 Data Limpia][![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)]((https://drive.google.com/drive/folders/19Ap8VtPO3Ph3U8Cnk0MvJFhxqOdBxvkl)      
+[📂 Data Limpia][![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-blue?logo=google-drive&style=flat-square)](https://drive.google.com/drive/folders/19Ap8VtPO3Ph3U8Cnk0MvJFhxqOdBxvkl)      
 
 ## 📁 Estructura del Repositorio
 
@@ -35,6 +35,7 @@ PF_NBA_EQUIPO1/
 │   ├── Identidad/        # Elementos visuales del proyecto
 │   ├── diccionario_datos.pdf
 │   └── informe_proyecto.pdf
+│   └── Presentación Sprint 1
 │
 ├── requirements.txt      # Dependencias del entorno
 └── README.md             # Documentación principal del proyecto
@@ -84,21 +85,21 @@ PF_NBA_EQUIPO1/
 A continuación se detallan los pasos recomendados para trabajar con este proyecto de forma ordenada y eficiente:
 
 1. **Descargar los datos crudos**  
-   Descargá los datasets originales desde la carpeta de Google Drive y colocá los archivos dentro de `Data/Data Cruda` (carpetas creadas localmente al clonar el repositorio).
+   Se descargan los datasets originales desde la carpeta de Google Drive y colocá los archivos dentro de `Data/Data Cruda` (carpetas creadas localmente al clonar el repositorio).
 
 2. **Preparar el entorno de trabajo**  
-   Abrí Visual Studio Code y cargá la carpeta del proyecto para trabajar con los notebooks.  
+   Se abre Visual Studio Code y se carga la carpeta del proyecto para trabajar con los notebooks.  
    Instalar las dependencias listadas en `requirements.txt`.
 
 3. **Limpieza y transformación de datos**  
-   Ejecutá y modificá los notebooks en la carpeta `Notebooks` para procesar los datos crudos y obtener datasets limpios.  
+   Ejecutamos y modificamos los notebooks en la carpeta `Notebooks` para procesar los datos crudos y obtener datasets limpios.  
    Los archivos transformados deben guardarse en la carpeta `Data/Data limpia`.
 
 4. **Subida a Google Cloud Platform**  
    Los datasets limpios se cargan a Google Cloud Storage o BigQuery para centralizar la información y facilitar la integración con herramientas de visualización.
 
 5. **Visualización en Power BI**  
-   Conectá Power BI a las fuentes de datos en la nube para crear dashboards dinámicos e interactivos que permitan analizar la información de manera efectiva.
+   Conectamos Power BI a las fuentes de datos en la nube para crear dashboards dinámicos e interactivos que permitan analizar la información de manera efectiva.
 
 6. **Automatización del pipeline**  
    Actualmente se está trabajando en la automatización de los procesos de extracción, transformación y carga (ETL) para optimizar y agilizar las actualizaciones periódicas de datos.  
@@ -115,6 +116,8 @@ A continuación se detallan los pasos recomendados para trabajar con este proyec
 - **Power BI**  
 - **Visual Studio Code**  
 - **Git & GitHub** para control de versiones
+- **Trello** 
+- **Github** 
 
 ---
 
