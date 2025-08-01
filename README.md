@@ -28,6 +28,7 @@ PF_NBA_EQUIPO1/
 │
 ├── Notebooks/            # Notebooks individuales de cada integrante (limpieza y transformación)
 │
+├── cloud_functions/        # Funciones para automatizar procesos en la nube
 ├── Documentación/
 │   ├── Identidad/        # Elementos visuales del proyecto
 │   ├── diccionario_datos.pdf
