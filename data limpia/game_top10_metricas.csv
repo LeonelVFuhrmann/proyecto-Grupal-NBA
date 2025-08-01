@@ -1,0 +1,11 @@
+team,win,loss,total_games,win_loss_diff,win_pct,loss_pct,avg_win_per_year
+Milwaukee Bucks,339,185,524,154,0.647,0.353,67.8
+Philadelphia 76ers,323,185,508,138,0.636,0.364,64.6
+Denver Nuggets,318,200,518,118,0.614,0.386,63.6
+Boston Celtics,322,214,536,108,0.601,0.399,64.4
+Toronto Raptors,299,203,502,96,0.596,0.404,59.8
+Utah Jazz,287,199,486,88,0.591,0.409,57.4
+Golden State Warriors,299,220,519,79,0.576,0.424,59.8
+Miami Heat,294,227,521,67,0.564,0.436,58.8
+LA Clippers,279,212,491,67,0.568,0.432,55.8
+Los Angeles Lakers,262,233,495,29,0.529,0.471,52.4
