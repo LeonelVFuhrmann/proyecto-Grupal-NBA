@@ -6,22 +6,22 @@ Este repositorio contiene el desarrollo de nuestro proyecto grupal, centrado en 
 
 ## 📁 Estructura del Repositorio
 
+```
 PF_NBA_EQUIPO1/
-│
 ├── Data/
-│ ├── Data Cruda/ # Contiene un link de una carpeta de drive donde se descargan los archivos crudos
-│ └── limpia/ # Datos limpios y transformados listos para análisis
+│   ├── Data Cruda/       # Contiene un link a Drive para descargar los datos originales
+│   └── limpia/           # Datos limpios y transformados listos para análisis
 │
-├── Notebooks/ # Notebooks que contienen las transformaciones hechas por cada uno de los integrantes, en carpetas separadas 
-│
+├── Notebooks/            # Notebooks individuales de cada integrante (limpieza y transformación)
 │
 ├── Documentación/
-│ ├── Identidad/ # Elementos visuales e identidad del proyecto
-│ ├── diccionario_datos.pdf
-│ └── informe_proyecto.pdf
+│   ├── Identidad/        # Elementos visuales del proyecto
+│   ├── diccionario_datos.pdf
+│   └── informe_proyecto.pdf
 │
-├── requirements.txt # Lista de dependencias del entorno
-└── README.md # Documentación principal del proyecto
+├── requirements.txt      # Dependencias del entorno
+└── README.md             # Documentación principal del proyecto
+```
 
 ---
 
@@ -29,8 +29,8 @@ PF_NBA_EQUIPO1/
 
 - Recolectar, limpiar y transformar datasets relacionados a la NBA.
 - Desarrollar un modelo de procesamiento de datos reproducible.
-- Subir los datos procesados a la nube mediante Google Cloud Platform.
-- Crear dashboards interactivos en Power BI para facilitar el análisis exploratorio y descriptivo.
+- Subir los datos procesados a Google Cloud Platform.
+- Crear dashboards interactivos en Power BI.
 - Documentar el flujo completo de trabajo para futuras implementaciones.
 
 ---
@@ -39,64 +39,80 @@ PF_NBA_EQUIPO1/
 
 1. Clonar el repositorio:
 
+   ```bash
    git clone https://github.com/pazcaminoDA/PF_NBA_EQUIPO1.git
    cd PF_NBA_EQUIPO1
+   ```
 
-Crear entorno virtual (opcional):
+2. (Opcional) Crear un entorno virtual:
 
-python -m venv env
-source env/bin/activate   # Linux/MacOS
-.\env\Scripts\activate    # Windows
+   ```bash
+   python -m venv env
+   source env/bin/activate   # Linux/MacOS
+   .\env\Scripts\activate    # Windows
+   ```
 
-Instalar las dependencias:
-pip install -r requirements.txt
+3. Instalar las dependencias:
 
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-🔄 Flujo de Trabajo
-Obtención de datos: los datasets fueron descargados desde distintas fuentes y almacenados en Drive.
+---
 
-División de tareas: cada integrante trabajó en la limpieza y transformación de datasets específicos utilizando Jupyter Notebooks.
+## 🔄 Flujo de Trabajo
 
-Consolidación: los archivos limpios fueron centralizados y subidos a una instancia de almacenamiento en Google Cloud Platform (GCP).
+1. **Obtención de Datos:**  
+   Los datasets fueron descargados desde distintas fuentes y almacenados en una carpeta compartida de Google Drive.
 
-Visualización: conexión de los datos en GCP con Power BI para desarrollar visualizaciones interactivas.
+2. **Limpieza y Transformación:**  
+   Cada integrante trabajó en distintos datasets utilizando Jupyter Notebooks.
 
-📈 Herramientas y Tecnologías Utilizadas
-Python (pandas, numpy, seaborn, matplotlib)
+3. **Consolidación:**  
+   Los archivos limpios se centralizaron y subieron a Google Cloud Platform.
 
-Jupyter Notebooks
+4. **Visualización:**  
+   Se conectaron los datos desde GCP a Power BI para construir dashboards interactivos.
 
-Google Cloud Platform (Cloud Storage, BigQuery)
+---
 
-Power BI
+## 📈 Herramientas y Tecnologías Utilizadas
 
-Git & GitHub para control de versiones
+- **Python**: pandas, numpy, seaborn, matplotlib  
+- **Jupyter Notebooks**  
+- **Google Cloud Platform**: Cloud Storage, BigQuery  
+- **Power BI**  
+- **Visual Studio Code**  
+- **Git & GitHub** para control de versiones
 
-Visual Studio Code
+---
 
-🤖 Automatización de Ingesta de Datos (En Desarrollo)
-Actualmente se encuentra en desarrollo una solución de automatización del pipeline de ingesta y procesamiento de datos. El objetivo es:
+## 🤖 Automatización del Pipeline (En Desarrollo)
 
-Implementar scripts programados para extraer y transformar los datasets originales.
+Estamos trabajando en la implementación de un pipeline automático para:
 
-Automatizar la carga de datos limpios a Google Cloud Storage o BigQuery.
+- Extraer, transformar y cargar los datos con scripts programados.
+- Automatizar la carga de datos limpios a GCP (Storage o BigQuery).
+- Ejecutar procesos mediante `cron`, Airflow o Cloud Functions.
+- Garantizar trazabilidad y repetibilidad del proceso de ETL.
 
-Utilizar herramientas como cron, Airflow o Cloud Functions para ejecutar procesos en intervalos definidos.
+---
 
-Garantizar la trazabilidad y repetibilidad del proceso de ETL.
+## 📊 Visualizaciones en Power BI
 
-📊 Visualizaciones en Power BI
+El producto final incluye dashboards conectados directamente a la nube. Estas visualizaciones permiten:
 
-El producto final incluye dashboards conectados directamente a los datos en la nube, permitiendo una visualización dinámica, actualizada y centrada en KPIs relevantes.
+- Monitorear KPIs relevantes
+- Acceso dinámico a la información
+- Toma de decisiones basada en datos
 
+---
 
+## 👥 Integrantes del Equipo
 
-👥 Integrantes del Equipo
-Sofía Echeverria 
+- Sofía Echeverria  
+- Leonel Fuhrmann  
+- Maria Paz Camino  
+- Agustín Brandt
 
-Leonel Fuhrmann
-
-Maria Paz Camino
-
-Agustín Brandt.
 
