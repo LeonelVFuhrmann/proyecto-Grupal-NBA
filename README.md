@@ -137,15 +137,6 @@ Esto garantiza que la base de datos se mantenga actualizada sin duplicados ni da
 
 [Ver video de demostración](https://drive.google.com/file/d/1qmPmSfjTDkAnyyMHrdup64EZsplPh62l/view?usp=sharing)  
 
----
-
-## 📊 Visualizaciones en Power BI
-
-El producto final incluye dashboards conectados directamente a la nube. Estas visualizaciones permiten:
-
-- Monitorear KPIs relevantes
-- Acceso dinámico a la información
-- Toma de decisiones basada en datos
 
 ---
 
