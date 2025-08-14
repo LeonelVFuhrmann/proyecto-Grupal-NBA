@@ -148,6 +148,55 @@ El producto final incluye dashboards conectados directamente a la nube. Estas vi
 
 ---
 
+## 📊 Dashboard en Power BI
+
+El **dashboard interactivo** desarrollado en **Power BI** es el producto final del análisis, diseñado para **facilitar la exploración y comparación** de jugadores y equipos de la NBA.  
+Está conectado a datos alojados en **Google BigQuery** y cuenta con **tres vistas principales**:
+
+---
+
+### 1️⃣ Performance Equipo
+**🎯 Objetivo:** Analizar métricas globales y comparativas entre equipos.
+
+**🔹 Elementos clave:**
+- 📌 **Tarjetas con KPIs:** puntos, victorias, derrotas, faltas.
+- 🗂 **Filtros** por ubicación, tipo de lanzamiento y temporada.
+- 📈 **Gráfico de precisión ofensiva**.
+- 🛡 **Treemap de solidez defensiva**.
+- 📊 **Línea de tendencia** sobre puntos generados por errores forzados.
+
+---
+
+### 2️⃣ Perfil Jugador
+**🎯 Objetivo:** Explorar las características físicas y demográficas de cada jugador.
+
+**🔹 Elementos clave:**
+- 📌 Tarjetas con **edad, altura, peso, equipo actual, posición y año de draft**.
+- 📅 **Clasificación etaria:**  
+  *Joven Talento*, *En Crecimiento*, *Pico de Rendimiento*, *Veterano*, *Veterano Senior*.
+- 🏁 **Indicador tipo gauge** que ubica al jugador en su segmento de edad.
+- 🕸 **Radar chart** con métricas físicas: alcance de brazos, agilidad en pista, salto vertical, ancho de mano y alcance parado (normalizadas).
+- 🌍 **Mapa de nacionalidad** para identificar jugadores internacionales y mercados potenciales.
+
+---
+
+### 3️⃣ Performance Jugador
+**🎯 Objetivo:** Evaluar el rendimiento individual y relacionarlo con factores como salario y grupo etario.
+
+**🔹 Elementos clave:**
+- 📌 KPIs de **partidos jugados, tiros intentados, victorias y aciertos**.
+- 📊 **Tabs de estadísticas:** asistencias, pérdidas, bloqueos, puntos y robos.
+- 🏆 **Gráfico Top 5** por estadística seleccionada.
+- ⚖ **Scatter plot “Eficiencia vs Salario”** segmentado por grupo etario.
+
+---
+
+💡 **Nota:** El dashboard fue diseñado con un enfoque en **interactividad y segmentación dinámica**, permitiendo explorar información **por jugador, equipo, temporada y grupo etario en tiempo real**.
+
+---
+
+
+
 ## 👥 Integrantes del Equipo
 
 - Sofía Echeverria  
