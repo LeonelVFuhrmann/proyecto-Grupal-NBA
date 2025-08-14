@@ -39,6 +39,7 @@ PF_NBA_EQUIPO1/
 │
 ├── requirements.txt      # Dependencias del entorno
 └── README.md             # Documentación principal del proyecto
+└── Dashboard             # Dashboard
 ```
 
 ---
