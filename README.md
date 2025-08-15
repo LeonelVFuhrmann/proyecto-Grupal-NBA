@@ -144,7 +144,7 @@ Esto garantiza que la base de datos se mantenga actualizada sin duplicados ni da
 
 El **dashboard interactivo** desarrollado en **Power BI** es el producto final del análisis, diseñado para **facilitar la exploración y comparación** de jugadores y equipos de la NBA.  
 Está conectado a datos alojados en **Google BigQuery** y cuenta con **tres vistas principales**:
-
+[Dashboard](https://drive.google.com/drive/folders/13ZotAZ88YXn-ilOpU4XvyrulicVRVNPu)
 ---
 
 ### 1️⃣ Performance Equipo
