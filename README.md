@@ -21,7 +21,7 @@ Mi participación estuvo enfocada en la **gestión de bases de datos, limpieza y
 - **BigQuery** → gestión y automatización de bases de datos.  
 - **Python (pandas, numpy)** → limpieza y análisis de archivos crudos.  
 - **Power BI** → desarrollo de dashboards y visualizaciones interactivas.  
-- **SQL** → consultas avanzadas para extracción y transformación de datos.  
+
 # 🏀 Análisis de Datos NBA – Proyecto Final | Equipo 1
 
 Este repositorio contiene el desarrollo de nuestro proyecto grupal, centrado en el análisis y visualización de datos de la NBA. El objetivo principal fue extraer valor de distintas fuentes de datos relacionadas al rendimiento de equipos y jugadores para construir visualizaciones interactivas que faciliten la toma de decisiones.
